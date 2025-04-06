@@ -1,0 +1,35 @@
+.main{
+    display: grid;
+    background-color: aquamarine;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 500px;
+    width: 700px;
+    padding: 10px;
+}
+.section1{
+    background-color: antiquewhite;
+    grid-column: span 2;
+    visibility: hidden;
+    opacity: 0;
+}
+.section2{
+    grid-row: span 2;
+    background-color: red;
+    visibility: hidden;
+    opacity: 0;
+}
+.section3{
+    grid-column: span 2;
+    background-color: black;
+    visibility: hidden;
+    opacity: 0;
+}
+.hoverd{
+    visibility: visible;
+    transition: ease 2s;
+    opacity: 1;
+ 
+
+}
